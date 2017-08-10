@@ -2,12 +2,12 @@ $(document).ready(function() {
 var timesYesButtonClicked=0
 var timesNoButtonClicked=0
 
-    $('#Yes').click(function() {
-      console.log('hi yes')
+    $('.Yes').click(function(){
+      console.log('yes')
     timesYesButtonClicked ++;
     });
-      $('#No').click(function() {
-        console.log ('no button')
+      $('.No').click(function(){
+        console.log ('no')
         timesNoButtonClicked ++;
       });
 $('button').click(function(){
